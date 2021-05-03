@@ -1,0 +1,23 @@
+.contact-label {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 26px;
+}
+
+.contact-label:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.contact-input {
+  padding: 8px;
+  font-size: 24px;
+  border: 1px solid rgb(190, 190, 190);
+  border-radius: 4px;
+}
+
+.contact-input:hover,
+.contact-input:focus {
+  border: 1px solid rgb(0, 109, 199);
+}
